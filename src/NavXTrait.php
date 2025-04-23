@@ -27,7 +27,7 @@ trait NavXTrait
      * @inheritdoc
      * @throws InvalidConfigException
      */
-    public function init()
+    public function init() :void
     {
         $this->checkDependency();
         parent::init();
